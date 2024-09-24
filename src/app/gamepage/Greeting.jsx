@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+"use client"; // not server component  
 
+import React, { useState } from 'react';
 
 const Greeting = () => {
   const [greeting, setGreeting] = useState('Hello, World!');
