@@ -23,8 +23,12 @@ const Greeting = () => {
         <div className="rightb">
           <button type="button">VIEW PANAROMA</button>
           <br />
-          <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/i1.png" alt="" />
-          <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/i1.png" alt="" />
+          <div className="img">
+            <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/i1.png" alt="" />
+            <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/i2.png" alt="" />
+            <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/i3.png" alt="" className="img1"/>
+            <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/i4.png" alt="" className="img2"/>
+          </div>
         </div>
       </div>
       <div class="Main">

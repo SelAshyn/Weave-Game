@@ -43,23 +43,51 @@
 
 .rightb
 {
+  height: 100px;
+  justify-content: flex-end;
+
+}
+.rightb button
+{
   margin-top: 10px;
   margin-right: 10px;
-  background-color: aqua;
+  background-color: #1B3652;
   align-items: right;
-  width: 200px;
+  width: 180px;
   text-align: center;
   height: 30px;
   padding: 5px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
   justify-content: flex-end;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
-.rightb img
+.rightb .img
 {
   margin-top: 10px;
-  margin-right: 15px;
   width: 50px;
   height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.rightb .img img
+{
+  margin-left: -0.5px;
+}
+.rightb .img .img1
+{
+  margin-top: 5px;
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
 }
 
+.rightb .img .img2
+{
+  margin-top: 5px;
+  margin-left: 12px;
+  width: 30px;
+  height: 30px;
+}
