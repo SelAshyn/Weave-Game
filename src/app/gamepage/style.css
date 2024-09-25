@@ -25,6 +25,7 @@
 }
 .left img
 {
-  width: 500px;
-  height: 500px;
+  width: 240px;
+  height: 90px;
+  margin-left: 10px;
 }

@@ -6,8 +6,6 @@ import React, { useState } from 'react';
 
 const Greeting = () => {
   const [greeting, setGreeting] = useState();
-  const [bg1, setbg1] = useState();
-
   const changeGreeting = () => {
   };
 
@@ -17,8 +15,10 @@ const Greeting = () => {
       
       <div className="navbar">
         <div className="left">
-          <img src={bg1} alt="" />
+          <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/bg1.png" alt="" />
         </div>
+      </div>
+      <div class="Main">
       </div>
     </div>
   );
