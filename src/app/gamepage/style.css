@@ -5,7 +5,7 @@
 .Main
 {
   background-image: url(bg@2x.png);
-  height: 947px;
+  height: 937px;
   padding-bottom: 0%;
   width: 100%;
   margin-bottom: 0%;
@@ -13,19 +13,45 @@
 }
 .navbar
 {
-  height: 90px;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
 }
 
 .left
 {
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
   height: 100%;
-
-  position: absolute;
 }
 .left img
 {
-  width: 240px;
-  height: 90px;
+  width: 260px;
+  height: 100px;
   margin-left: 10px;
 }
+
+.mid img
+{
+  width: 350px;
+  height: 100px;
+  margin-right: 100%;
+  margin-left: -80%;
+}
+
+.rightb
+{
+  margin-top: 15px;
+  margin-right: 15px;
+  background-color: aqua;
+  align-items: right;
+  width: 200px;
+  text-align: center;
+  height: 45px;
+  padding: 10px;
+  justify-content: flex-end;
+  border-radius: 30px;
+}
+
