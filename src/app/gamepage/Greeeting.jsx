@@ -23,7 +23,7 @@ const Greeting = () => {
         <div className="rightb">
           <button type="button">VIEW PANAROMA</button>
           <br />
-          <img src="" alt="" />
+          <img src="https://raw.githubusercontent.com/SelAshyn/Weave-Game/refs/heads/Game-Page/src/app/gamepage/i1.png" alt="" />
         </div>
       </div>
       <div class="Main">
